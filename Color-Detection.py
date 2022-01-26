@@ -32,7 +32,7 @@ cv2.destroyAllWindows()
 img=cv2.imread(img_name)
 #img=cv2.imread("colorpic.png")  #default image to test with.
 index = ["color", "color_name", "hex", "R", "G", "B"]
-df=pd.read_csv("D:/Color-Detection dataset/colors.csv", names=index, header=None)
+df=pd.read_csv("colors.csv", names=index, header=None)
 
 # Declaring global variables
 clicked=False
